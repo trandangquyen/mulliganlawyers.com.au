@@ -9,7 +9,7 @@ Kirki::add_field( 'tm-lawyers', array(
     'description' => esc_html__( 'Choose a primary color for your site', 'tm-lawyers' ),
     'section'     => $section,
     'priority'    => $priority ++,
-    'default'     => '#c89a69',
+    'default'     => '#048FCB',
     'transport'   => 'postMessage',
     'output'      => array(
         array(
