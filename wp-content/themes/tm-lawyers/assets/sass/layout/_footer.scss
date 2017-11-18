@@ -1,0 +1,197 @@
+.newsletter {
+    background-size: cover;
+    color: #ffffff;
+    form {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+    input[type="text"], input[type="email"] {
+        width: 230px !important;
+        height: 48px !important;
+        padding: 0 15px !important;
+        line-height: 48px !important;
+        text-align: center !important;
+        border: none !important;
+        margin: 0 !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+    }
+    input[type="submit"] {
+        height: 48px !important;
+        padding: 0 20px !important;
+        line-height: 48px !important;
+        background-color: $color__primary;
+        font-weight: 600 !important;
+        border: none !important;
+        margin: 0 !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        &:hover {
+            background-color: #222222 !important;
+        }
+    }
+    .text {
+        height: 48px;
+        line-height: 48px;
+        margin-right: 10px;
+        display: inline-block;
+        color: #ffffff;
+    }
+    .social-menu {
+        display: inline-block;
+        ul.menu {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            li {
+                margin: 3px 0px;
+                padding: 0;
+                a {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    text-align: center;
+                    line-height: 40px;
+                    background-color: #222222;
+                    color: #ffffff;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    border-radius: 50%;
+                    @include transit;
+                    &:before {
+                        line-height: 40px;
+                    }
+                    &:hover {
+                        background-color: $color__primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.site-footer {
+    a {
+        text-decoration: none;
+        font-size: inherit;
+        @include transit;
+    }
+    .widget {
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        .sub-menu {
+            display: none;
+        }
+        i {
+            color: $color__primary;
+            width: 16px;
+        }
+        p {
+            font-size: inherit;
+            line-height: 1.8;
+        }
+        .widget-title {
+            position: relative;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 0em;
+            font-size: 20px;
+            &:before {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 50px;
+                height: 10px;
+                display: block;
+                content: '\e901';
+                font-family: 'TMLawyer';
+                font-size: 9px;
+                color: $color__primary;
+                @include transit;
+            }
+            span {
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+        }
+        &:hover {
+            .widget-title:before {
+                color: #ffffff;
+            }
+        }
+    }
+    .col-md-4 {
+        margin-bottom: 30px;
+    }
+    .social-menu .menu {
+        li {
+            margin: 0 15px 0 0;
+            a:before {
+                font-size: 20px;
+            }
+        }
+    }
+    ul {
+        li {
+            display: block;
+            margin-bottom: 10px;
+            list-style-type: none;
+            vertical-align: top;
+            @extend %transit;
+            a:before {
+                margin-right: 10px;
+                content: "\f105";
+                @extend %icon;
+                color: $color__primary;
+            }
+        }
+    }
+}
+
+.office {
+    p {
+        margin-bottom: 10px;
+    }
+    i {
+        width: 35px;
+        font-size: 16px;
+    }
+}
+
+.copyright {
+    overflow: hidden;
+    line-height: 1.5;
+    padding: 40px 0;
+    border-top: 1px solid #444444;
+    a {
+        text-decoration: none;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .copyright {
+        .copyright-left, .copyright-right {
+            text-align: center !important;
+        }
+    }
+    .newsletter {
+        .newsletter-right, .newsletter-left {
+            text-align: center !important;
+        }
+        .newsletter-left {
+            margin-bottom: 30px;
+            .text {
+                margin: 0;
+            }
+            input[type="email"] {
+                margin-bottom: 10px !important;
+                float: left;
+                margin-right: 5px !important;
+            }
+        }
+    }
+}

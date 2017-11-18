@@ -1,0 +1,114 @@
+.menu-item, .page_item {
+    display: inline-block;
+}
+
+// top menu
+.top-menu {
+    position: relative;
+    z-index: 1;
+    .menu-item {
+        padding: 5px;
+        a:after {
+            margin-left: 10px;
+            content: "\f178";
+            @extend %icon;
+        }
+    }
+}
+
+//primary menu
+.main-navigation {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    .primary-menu {
+        position: relative;
+    }
+    .menu, ul {
+        margin: 0;
+        padding: 0;
+    }
+    .menu li {
+        &:hover {
+            > .sub-menu, > .children {
+                z-index: 999;
+                visibility: visible;
+                opacity: 1;
+                > li {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .menu > ul > li, .menu > li {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        line-height: 1.5;
+        @extend %transit;
+        a {
+            position: relative;
+            z-index: 1;
+            text-transform: uppercase;
+            display: inline-block;
+
+        }
+    }
+    .sub-menu, .children {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+        @extend %transit;
+        li {
+            position: relative;
+            margin-right: 20px;
+            @extend %transit;
+            a {
+                @extend %transit;
+            }
+            &.current-menu-item {
+                a {
+                    color: $color__primary;
+                }
+            }
+        }
+    }
+    .mega-menu {
+        position: static !important;
+        ul.sub-menu {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            > li {
+                padding: 0px !important;
+            }
+        }
+        .mega-menu-content {
+            padding: 15px;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    padding: 0 !important;
+                    i {
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .top-menu {
+        .menu-item {
+            padding: 15px 30px 15px 0;
+        }
+    }
+}

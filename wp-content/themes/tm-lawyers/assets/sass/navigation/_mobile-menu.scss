@@ -1,0 +1,101 @@
+#open-left {
+    line-height: 1;
+    cursor: pointer;
+}
+
+.snap-drawers {
+    background-color: #fff;
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}
+
+.mobile-menu-wrap {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9997;
+    .mobile-menu-overlay {
+        position: absolute;
+        z-index: 9998;
+        background-color: rgba(0, 0, 0, .7);
+        display: block;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        @include transit;
+    }
+    .mobile-menu-inner {
+        position: absolute;
+        background-color: #ffffff;
+        width: 90%;
+        max-width: 320px;
+        display: block;
+        height: 100%;
+        overflow-y: auto;
+        z-index: 9999;
+        transform: translateX(-10%);
+        @include transit;
+    }
+    &.open {
+        opacity: 1;
+        visibility: visible;
+        .mobile-menu-overlay {
+            opacity: 1;
+        }
+        .mobile-menu-inner {
+            transform: translateX(0);
+        }
+    }
+}
+
+body.admin-bar {
+    .mobile-menu-wrap {
+        top: 32px;
+    }
+}
+
+.mobile-menu {
+    padding: 15px;
+    overflow-x: hidden;
+    > ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: block;
+            > ul {
+                padding: 0;
+                margin: 0 0 0 20px;
+            }
+            a {
+                display: block;
+                padding: 10px 0;
+                border-bottom: 1px solid #eee;
+            }
+            &:last-child {
+                border: none;
+            }
+            .mega-menu-content {
+                [class*='col-'] {
+                    width: 100%;
+                    flex: none;
+                    max-width: 100%;
+                }
+                ul {
+                    margin: 0;
+                    padding: 0;
+                    li:last-child {
+                        a {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

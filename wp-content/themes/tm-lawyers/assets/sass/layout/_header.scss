@@ -1,0 +1,123 @@
+.site-top {
+    position: relative;
+    width: 100%;
+}
+
+.site-branding {
+    position: relative;
+    z-index: 1;
+    padding: 20px 15px;
+}
+
+.extra-info {
+    > div {
+        padding: 10px 15px;
+        text-align: left;
+    }
+    i {
+        display: inline-block;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    span {
+        color: #777;
+        font-weight: 600;
+    }
+    h3 {
+        letter-spacing: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+}
+
+.search-box {
+    position: relative;
+    z-index: 9999;
+    i {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        font-size: 16px;
+        cursor: pointer;
+        @extend %transit;
+        &:before, &:after {
+            position: absolute;
+            @extend %transit;
+        }
+        &:before {
+            top: 0;
+            left: 0;
+        }
+        &:after {
+            top: 100%;
+            left: 0;
+            content: '\f00d';
+        }
+    }
+    label span, input[type="submit"] {
+        display: none;
+    }
+    input[type="search"] {
+        position: absolute;
+        z-index: 99;
+        padding: 10px;
+        width: 100%;
+        border: none;
+        border-top: 3px solid transparent;
+        background-color: #fff;
+        @include box-shadow(0, 6px, 12px, 0, rgba(0, 0, 0, 0.2));
+        @extend %transit;
+    }
+    .search-form {
+        position: absolute;
+        left: -300px;
+        top: -100%;
+        visibility: hidden;
+        width: 300px;
+        height: 100%;
+        opacity: 0;
+        @extend %transit;
+        &.open {
+            visibility: visible;
+            opacity: 1;
+            + i {
+                &:before {
+                    top: -100%;
+                }
+                &:after {
+                    top: 0;
+                }
+            }
+        }
+    }
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+}
+
+///////////////sm//////////////////
+@include media-breakpoint-up(sm) {
+    body {
+        color: #000;
+    }
+}
+
+///////////////md//////////////////
+@include media-breakpoint-up(md) {
+    .site-top {
+        .social-menu {
+            position: relative;
+            display: inline-block;
+            ul {
+                position: relative;
+                z-index: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+a:2:{s:8:"sidebars";a:13:{s:11:"header-info";a:1:{i:0;s:6:"text-7";}s:13:"header02-info";a:1:{i:0;s:6:"text-8";}s:9:"sidebar-1";a:12:{i:0;s:20:"better-menu-widget-3";i:1;s:7:"text-13";i:2;s:7:"text-12";i:3;s:12:"categories-2";i:4;s:8:"search-2";i:5;s:14:"recent-posts-2";i:6;s:17:"recent-comments-2";i:7;s:10:"archives-2";i:8;s:24:"tm_lawyers_postswidget-2";i:9;s:11:"tag_cloud-2";i:10;s:6:"text-6";i:11;s:6:"meta-2";}s:15:"newsletter-form";a:1:{i:0;s:6:"text-5";}s:10:"top-slider";a:0:{}s:8:"top-left";a:1:{i:0;s:6:"text-2";}s:14:"header02-info1";a:1:{i:0;s:7:"text-10";}s:14:"header02-info2";a:1:{i:0;s:7:"text-11";}s:13:"header03-info";a:1:{i:0;s:6:"text-9";}s:6:"footer";a:1:{i:0;s:6:"text-3";}s:7:"footer2";a:1:{i:0;s:20:"better-menu-widget-2";}s:7:"footer3";a:1:{i:0;s:6:"text-4";}s:7:"footer4";a:1:{i:0;s:14:"recent-posts-3";}}s:7:"widgets";a:18:{s:5:"pages";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:8:"calendar";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:8:"archives";a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}s:4:"meta";a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}s:6:"search";a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}s:4:"text";a:14:{i:1;a:0:{}i:2;a:3:{s:5:"title";s:0:"";s:4:"text";s:115:"<i class="fa fa-envelope-o"></i> contact@yoursite.com &nbsp;&nbsp;&nbsp; <i class="fa fa-phone"></i> 1.800.123.4569";s:6:"filter";b:0;}i:3;a:3:{s:5:"title";s:8:"ABOUT US";s:4:"text";s:224:"<p>The Lawyer Attorneys Firm is a general practice firm that has  served individuals and business for over twenty years.</p>
+<p>We are dedicated lawyers who work efficiently and hard to provide you the best law service.</p>";s:6:"filter";b:0;}i:4;a:3:{s:5:"title";s:13:"KEEP IN TOUCH";s:4:"text";s:366:"<p><i class="fa fa-map-marker"></i> &nbsp; 14 Tottenham Road, London, England.</p>
+<p><i class="fa fa-phone"></i>  &nbsp; (102) 6666 8888</p>
+<p><i class="fa fa-envelope"></i>  &nbsp; <a href="mailto:info@zooka.io">info@zooka.io</a></p>
+<p><i class="fa fa-fax"></i>  &nbsp; (102) 8888 9999</p>
+<p><i class="fa fa-clock-o"></i>  &nbsp; Mon - Sat: 9:00 - 18:00</p>";s:6:"filter";b:0;}i:5;a:3:{s:5:"title";s:0:"";s:4:"text";s:45:"<h3 class="text">NEWSLETTER</h3> [mc4wp_form]";s:6:"filter";b:0;}i:6;a:3:{s:5:"title";s:11:"Text Widget";s:4:"text";s:342:"Shortly after Detroit filed for bankruptcy in July 2013, Judge Rhodes made it clear that its lawyers shouldn’t be charging the struggling city for first-class flights, alcoholic beverages or movies in hotel rooms. His instructions are the most detailed legal-fee instructions given to a city or county in a modern municipal bankruptcy case.";s:6:"filter";b:0;}i:7;a:3:{s:5:"title";s:0:"";s:4:"text";s:281:"<div class="left">
+<i class="fa fa-envelope"></i>
+<span class="title">EMAIL US:</span>
+<span class="info">contact@yoursite.com</span>
+</div>
+<div class="right">
+<i class="fa fa-phone"></i>
+<span class="title">CALL US:</span>
+<span class="info">1.800.123.4569</span>
+</div>";s:6:"filter";b:0;}i:8;a:3:{s:5:"title";s:0:"";s:4:"text";s:281:"<div class="left">
+<i class="fa fa-envelope"></i>
+<span class="title">EMAIL US:</span>
+<span class="info">contact@yoursite.com</span>
+</div>
+<div class="right">
+<i class="fa fa-phone"></i>
+<span class="title">CALL US:</span>
+<span class="info">1.800.123.4569</span>
+</div>";s:6:"filter";b:0;}i:9;a:3:{s:5:"title";s:0:"";s:4:"text";s:190:"<i class="fa fa-envelope-o"></i> contact@yoursite.com &nbsp;&nbsp;&nbsp; <i class="fa fa-phone"></i> 1.800.123.4569 &nbsp;&nbsp;&nbsp; <i class="fa fa-map-marker"></i> 7/135 Saint St. London";s:6:"filter";b:0;}i:10;a:3:{s:5:"title";s:0:"";s:4:"text";s:152:"<div class="info-content">
+<i class="fa fa-envelope"></i>
+<span class="title">EMAIL US:</span>
+<span class="info">contact@yoursite.com</span>
+</div>";s:6:"filter";b:0;}i:11;a:3:{s:5:"title";s:0:"";s:4:"text";s:142:"<div class="info-content">
+<i class="fa fa-phone"></i>
+<span class="title">CALL US:</span>
+<span class="info">1.800.123.4569</span>
+</div>";s:6:"filter";b:0;}i:12;a:3:{s:5:"title";s:11:"Our Sponsor";s:4:"text";s:85:"<a href="#">
+<img src="http://localhost/lawyers/data/images/our_sponsor.jpg"/>
+</a>";s:6:"filter";b:0;}i:13;a:3:{s:5:"title";s:18:"Download Brochures";s:4:"text";s:279:"<a href="#" class="widget-brochure">
+<i class="fa fa-file-pdf-o"></i> Download.PDF
+</a>
+<a href="#" class="widget-brochure">
+<i class="fa fa-file-word-o"></i> Download.DOC
+</a>
+<a href="#" class="widget-brochure">
+<i class="fa fa-file-powerpoint-o"></i> Download.PPT
+</a>";s:6:"filter";b:0;}s:12:"_multiwidget";i:1;}s:10:"categories";a:2:{i:2;a:4:{s:5:"title";s:0:"";s:5:"count";i:1;s:12:"hierarchical";i:1;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}s:12:"recent-posts";a:3:{i:2;a:3:{s:5:"title";s:0:"";s:6:"number";i:5;s:9:"show_date";b:1;}i:3;a:3:{s:5:"title";s:12:"LATEST POSTS";s:6:"number";i:6;s:9:"show_date";b:0;}s:12:"_multiwidget";i:1;}s:15:"recent-comments";a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}s:3:"rss";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:9:"tag_cloud";a:3:{i:1;a:0:{}i:2;a:2:{s:5:"title";s:4:"Tags";s:8:"taxonomy";s:8:"post_tag";}s:12:"_multiwidget";i:1;}s:8:"nav_menu";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:22:"woothemes_testimonials";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:15:"ess-grid-widget";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:17:"rev-slider-widget";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:18:"better-menu-widget";a:4:{i:1;a:0:{}i:2;a:2:{s:5:"title";s:16:"EXPLORE OUR SITE";s:8:"nav_menu";s:14:"footer-explore";}i:3;a:2:{s:5:"title";s:13:"Our Practices";s:8:"nav_menu";s:13:"our-practices";}s:12:"_multiwidget";i:1;}s:17:"mc4wp_form_widget";a:2:{i:1;a:0:{}s:12:"_multiwidget";i:1;}s:22:"tm_lawyers_postswidget";a:2:{i:2;a:3:{s:5:"title";s:12:"Recent Posts";s:3:"cat";s:2:"c1";s:3:"num";s:1:"5";}s:12:"_multiwidget";i:1;}}}

@@ -1,0 +1,192 @@
+.thememove-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    &--small-title {
+        font-size: 34px;
+        font-weight: 400;
+        font-family: $font__primary;
+        color: #c8a472;
+    }
+    &--big-title {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: $font__second;
+        color: #333333;
+        text-transform: uppercase;
+    }
+    &--decor {
+        &:after {
+            content: '\e900';
+            font-family: 'TMLawyer';
+            font-size: 9px;
+            color: $color__primary;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.thememove-accordion {
+    .item {
+        margin-bottom: 15px;
+        background: #ffffff;
+        overflow: hidden;
+        .title {
+            background-color: #f8f7f7;
+            color: #333333;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 20px 60px 20px 30px;
+            text-transform: uppercase;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            @include transit;
+            &:after {
+                content: '+';
+                font-family: Tahoma;
+                font-size: 14px;
+                font-weight: 400;
+                position: absolute;
+                top: 50%;
+                right: 30px;
+                transform: translateY(-50%);
+                width: 16px;
+                height: 16px;
+                line-height: 14px;
+                text-align: center;
+                @include border-radius(50%);
+                background-color: $color__primary;
+                color: #ffffff;
+            }
+        }
+        .content {
+            height: 0;
+            padding: 0 30px;
+            line-height: 1.6;
+            background-color: #f8f7f7;
+            @include transit;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &.active {
+            .title {
+                background-color: $color__primary;
+                color: #ffffff;
+                &:after {
+                    content: '-';
+                    background-color: #ffffff;
+                    color: #333333;
+                }
+            }
+            .content {
+                height: auto;
+                padding: 30px;
+            }
+        }
+        &:hover {
+            .title {
+                background: $color__primary;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.thememove-single-testi {
+    text-align: center;
+    padding: 0 15px;
+    .photo {
+        margin-bottom: 40px;
+        img {
+            width: 120px;
+            height: 120px;
+            @include border-radius(60px);
+        }
+    }
+    .text {
+        color: #696969;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .info {
+        margin-top: 40px;
+        .author {
+            .name, .tagline {
+                display: inline-block;
+            }
+            .name {
+                font-size: 16px;
+                font-weight: 600;
+                color: #333333;
+            }
+            .tagline {
+                color: #ababab;
+                font-size: 14px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.thememove-video {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    a {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        &:before {
+            content: '';
+            width: 82px;
+            height: 82px;
+            @include border-radius(41px);
+            background-color: $color__primary;
+            opacity: .3;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 97;
+        }
+        &:after {
+            content: '\f215';
+            font-family: Ionicons;
+            color: #ffffff;
+            font-size: 24px;
+            width: 68px;
+            height: 68px;
+            line-height: 68px;
+            @include border-radius(34px);
+            background-color: $color__primary;
+            text-align: center;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 98;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            @include transit;
+            z-index: 96;
+        }
+    }
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+    }
+    &.mtop-120 {
+        margin-top: -120px;
+    }
+}

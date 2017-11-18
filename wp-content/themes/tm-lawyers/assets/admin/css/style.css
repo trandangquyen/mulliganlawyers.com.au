@@ -1,0 +1,11 @@
+/* CSS shortcode icon */
+.vc_element-icon.tm-shortcode-ico {
+    background: none;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: 0 !important;
+}
+
+.tm-shortcode-ico.default-icon {
+    background-image: url('../images/vc-icon.png');
+}

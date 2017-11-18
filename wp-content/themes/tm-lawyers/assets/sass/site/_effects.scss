@@ -1,0 +1,100 @@
+/*---------------*/
+/***** Apollo *****/
+/*---------------*/
+
+.effect-apollo {
+    background: #000000;
+    overflow: hidden;
+    position: relative;
+    img {
+        opacity: 0.95;
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: scale3d(1.05, 1.05, 1);
+        transform: scale3d(1.05, 1.05, 1);
+    }
+    &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        content: '';
+        -webkit-transition: -webkit-transform 0.6s;
+        transition: transform 0.6s;
+        -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+        transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, -100%, 0);
+        opacity: 0;
+    }
+    &:hover {
+        img {
+            opacity: 0.9;
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+        }
+        &:before {
+            -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+            transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+            opacity: 1;
+        }
+    }
+}
+
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+
+.effect-layla {
+    background: #000000;
+    position: relative;
+    &:before, &:after {
+        position: absolute;
+        content: '';
+        opacity: 0;
+    }
+    &:before {
+        top: 20px;
+        right: 10px;
+        bottom: 20px;
+        left: 10px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: scale(0, 1);
+        transform: scale(0, 1);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+    &:after {
+        top: 10px;
+        right: 20px;
+        bottom: 10px;
+        left: 20px;
+        border-right: 1px solid #fff;
+        border-left: 1px solid #fff;
+        -webkit-transform: scale(1, 0);
+        transform: scale(1, 0);
+        -webkit-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+    }
+    &:hover {
+        img {
+            opacity: 0.7;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+        }
+        &:before, &:after {
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+        }
+        &:after {
+            -webkit-transition-delay: 0.15s;
+            transition-delay: 0.15s;
+        }
+    }
+}
