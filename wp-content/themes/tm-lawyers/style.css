@@ -1022,6 +1022,9 @@ img.wp-smiley,
 .scrollup:hover {
     background-color: #333333 !important;
 }
+.tp-mask-wrap .darkyellow {
+    color: #048FCB !important;
+}
 @media (max-width: 480px) {
     .site-branding a>img{
         margin-left: 0 !important;
