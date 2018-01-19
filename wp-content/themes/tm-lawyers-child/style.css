@@ -1,36 +1,17 @@
+
 /*
-Theme Name: TM Lawyers
-Theme URI: http://lawyers.thememove.com
-Author: ThemeMove Team
-Author URI: http://thememove.com
-Description: The best WordPress theme for lawyers
-Version: 2.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: tm-lawyers
-Tags: two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style
-
+ Theme Name:   TM-Lawyers Child Theme
+ Theme URI:    http://fgc.vn
+ Description:  TM-Lawyers Child Theme
+ Author:       FgcTechlution
+ Author URI:   http://fgc.vn
+ Template:     tm-lawyers
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  TM-Lawyers-Child-Theme
 */
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Repeatable Patterns
-# Elements
-# Typography
-# Responsive images
-# Alignment
-# Entry Content
-# Attachments
-# Widgets
-# Galleries
-# Text meant only for screen readers.
---------------------------------------------------------------*/
-
-/**
- * Repeatable Patterns
- * ----------------------------------------------------------------------------
- */
-
 a {
     text-decoration: none !important;
 }

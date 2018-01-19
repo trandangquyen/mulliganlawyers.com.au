@@ -114,7 +114,7 @@ Kirki::add_field( 'tm-lawyers', array(
     'description' => esc_html__( 'Entry the text for header right block', 'tm-lawyers' ),
     'section'     => $section,
     'priority'    => $priority ++,
-    'default'     => '<span class="icon pe-7s-culture"></span> <span class="text"><a href="#">FREE CASE EVALUATION</a></span>',
+    'default'     => '<span class="icon pe-7s-culture"></span> <span class="text"><a href="/#case-evaluation">FREE CASE EVALUATION</a></span>',
     'transport'   => 'postMessage',
     'js_vars'     => array(
         array(
