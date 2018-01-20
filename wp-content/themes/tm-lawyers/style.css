@@ -1028,6 +1028,18 @@ img.wp-smiley,
 .single-post .comments-area .comment .comment-reply-link, .page .comments-area .comment .comment-reply-link{
     color: #048FCB !important;
 }
+.fgc-title-wrapper ol li{
+    transition: all .15s ease-out;
+}
+.fgc-title-wrapper ol li:hover{
+    color: #333;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.fgc-title-wrapper ol{
+    padding-left: 0;
+}
 @media (max-width: 480px) {
     .site-branding a>img{
         margin-left: 0 !important;
