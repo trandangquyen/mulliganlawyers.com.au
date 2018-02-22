@@ -1030,11 +1030,14 @@ img.wp-smiley,
 }
 .fgc-title-wrapper ol li{
     transition: all .15s ease-out;
+    text-decoration: underline;
+    color: #048FCB;
 }
 .fgc-title-wrapper ol li:hover{
     color: #333;
     font-weight: 700;
     cursor: pointer;
+    color: #048FCB;
     
 }
 .fgc-title-wrapper ol{
